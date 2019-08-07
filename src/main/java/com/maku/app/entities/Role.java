@@ -10,7 +10,7 @@ import javax.persistence.JoinTable;
 import javax.persistence.ManyToMany;
 
 @Entity
-public class Roles {
+public class Role {
 
 	@Id
 	private String name;
@@ -23,15 +23,15 @@ public class Roles {
 	})
 	private List<User> users;
 	
-	public Roles() {
+	public Role() {
 	}
 	
-	public Roles(String name) {
+	public Role(String name) {
 		super();
 		this.name = name;
 	}
 
-	public Roles(String name, List<User> users) {
+	public Role(String name, List<User> users) {
 		this.name = name;
 		this.users = users;
 	}

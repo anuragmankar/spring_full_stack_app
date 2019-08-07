@@ -60,7 +60,7 @@ public class User {
 	},inverseJoinColumns = {
 		 @JoinColumn(name = "ROLE_NAME",  referencedColumnName = "name" )
 	})
-	private List<Roles> roles;
+	private List<Role> roles;
 	
 	
 	public User() {
@@ -96,10 +96,10 @@ public class User {
 	public void setTask(List<Task> task) {
 		this.tasks = task;
 	}
-	public List<Roles> getRoles() {
+	public List<Role> getRoles() {
 		return roles;
 	}
-	public void setRoles(List<Roles> roles) {
+	public void setRoles(List<Role> roles) {
 		this.roles = roles;
 	}
 	
