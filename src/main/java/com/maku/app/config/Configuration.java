@@ -1,4 +1,4 @@
-package com.maku.app.configuration;
+package com.maku.app.config;
 
 import org.springframework.context.MessageSource;
 import org.springframework.context.annotation.Bean;

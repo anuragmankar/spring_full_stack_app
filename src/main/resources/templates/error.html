@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" 
+	xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+	layout:decorate="~{fragments/main_layout}">
+	
+<head>
+
+</head>
+<body>
+	<div layout:fragment="content" class="container mySpace">
+		<div class="jumbotron">
+			There Was an Error <span th:text="${message}"> </span> |<span th:text="${status}" class = "text text-danger"> </span>
+		</div>
+		<h3>Please contact Anurag Mankar for this error </h3>
+	</div>
+</body>
+</html>

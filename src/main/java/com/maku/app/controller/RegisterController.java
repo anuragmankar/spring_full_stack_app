@@ -39,6 +39,7 @@ public class RegisterController {
 			return "views/registerForm";
 		}
 		userService.createUser(user);
+		//userService.createAdmin(user);
 		return "views/success"; 
 	}
 
