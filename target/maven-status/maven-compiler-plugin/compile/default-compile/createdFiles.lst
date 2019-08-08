@@ -1,0 +1,9 @@
+com\maku\app\repositories\UserRepository.class
+com\maku\app\repositories\RoleRepository.class
+com\maku\app\services\TaskService.class
+com\maku\app\services\UserService.class
+com\maku\app\entities\Role.class
+com\maku\app\repositories\TaskRepositiory.class
+com\maku\app\entities\Task.class
+com\maku\app\SpringFullStackAppApplication.class
+com\maku\app\entities\User.class
